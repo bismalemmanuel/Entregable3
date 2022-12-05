@@ -1,0 +1,61 @@
+.residents-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    max-width: 1480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    font-family: 'Get Schwifty', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 20;
+    width: 50%;
+}
+
+input{
+    width: 100%;
+    height: 3em;
+    padding: 1em;
+    font-size: 1.2rem;
+}
+
+h1{
+    color: #26a2a9;
+    font-size: 7rem;
+    text-shadow: 1px 1px 1px 1px black ;
+}
+
+button{
+    visibility: hidden;
+}
+
+.subtitle{
+    background-color:  #04272c;
+    width: 60%;
+    margin: 3em auto;
+    
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2em;
+    color: white;
+    font-size: 1.3rem;
+
+}
